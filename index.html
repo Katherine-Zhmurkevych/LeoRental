@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/20afda3e3e.js" crossorigin="anonymous"></script>
+    <title>LeoRental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+            <nav class="navigation topnav" id="myTopnav">
+                <a href="">MAIN</a>
+                <a href="">OUR CARS</a>
+                <a href="">NEWS</a>
+                <a href="contacts.html">INFO</a>
+                <a href="gallery.html">GALLERY</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+
+    <!---------LeoRental info--------->
+
+    <div class="LeoRental-info">
+        <article class="text">
+            <h1>LeoRental</h1>
+            <p>Наш сервіс надає послуги оренди машини Вашої мрії!
+                Ми потурбувалися про ваш комфорт та різноманітність Ваших смаків,
+                тому у нас в наявності близько 100 машин на кожен смак!
+            </p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </article>
+    </div>
+</header>
+
+    <!------General info------>
+    <div class="general-info">
+        <article class="text">
+            <h1>Загальне</h1>
+            <p>LeoRental - це найкращий і найдоступніший сервіс прокату автомобілів у Львові!
+                Працюємо без вихідних та завжди готові надати автомобіль, що найкраще 
+                задовільняє ваші потреби та смаки.
+            </p>
+        </article>
+    </div>
+
+    <!------Prices----->
+
+    <div>
+        <section class="Prices">
+            <h1>Наші розцінки</h1>
+
+            <div class="row">
+                <div class="prices-col">
+                    <img src="images/standart.jpg">
+                    <h3>Стандарт</h3>
+                    <h4>Стандартна ціна на один становить XXX </h4>
+                </div>
+
+                <div class="prices-col">
+                    <img src="images/sportsCar.jpg">
+                    <h3>Спорт</h3>
+                    <h4>Оренда спортивної машини буде становити XXXX</h4>
+                </div>
+
+                <div class="prices-col">
+                    <img src="images/vintage.jpg">
+                    <h3>Вінтаж</h3>
+                    <h4>Для оренди вінтажної машини,<br> зверніться до менеджера за детальною інформацією.</h4>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!------ Footer ------>
+
+    <footer>
+        <div class="row">
+            <div class="column">
+              <h2>Contact us:</h2>
+              <p>+380XXXXXXXXX <br>+380XXXXXXXY</p>
+            </div>
+            <div class="column">
+                <h2>Or contact us via social media:</h2>
+                <div class="icons">
+                    <i class="fab fa-facebook-square fa-2x"></i>
+                    <i class="fab fa-twitter-square fa-2x"></i>
+                    <i class="fab fa-instagram-square fa-2x"></i>
+                    <i class="fab fa-linkedin fa-2x"></i>
+                 </div>
+            </div>
+          </div>
+         <p>© 2022 LeoRental</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+</body>
+</html>

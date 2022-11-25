@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/20afda3e3e.js" crossorigin="anonymous"></script>
+    <title>LeoRental</title>
+    <link rel="stylesheet" href="gallery_style.css">
+</head>
+<body>
+    <div class="header">
+        <nav class="navigation topnav" id="myTopnav">
+            <a href="index.html">MAIN</a>
+            <a href="">OUR CARS</a>
+            <a href="">NEWS</a>
+            <a href="contacts.html">INFO</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <video autoplay muted loop id="myVideo" width="560" height="315">
+            <source src="video/video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+
+        <img src="images/different.jpg" alt="image" class="responsive">
+        <img src="images/1.jpg" alt="image" class="responsive">
+        <img src="images/2.jpeg" alt="image" class="responsive">
+        <img src="images/3.jpeg" alt="image" class="responsive">
+        <img src="images/4.jpeg" alt="image" class="responsive">
+        <img src="images/5.jpeg" alt="image" class="responsive">
+        <img src="images/6.jpeg" alt="image" class="responsive">
+        <img src="images/7.jpeg" alt="image" class="responsive">
+    </div>
+</div>
+
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+</body>
+</html>
